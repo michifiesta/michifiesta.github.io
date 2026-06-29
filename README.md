@@ -38,3 +38,95 @@
 -
 # where do i download bro
   here: https://10xc7.itch.io/michifiesta and https://github.com/michifiesta/michifiesta/releases
+-
+# the following things are copy + pasted directly from https://github.io/michifiesta/michifiesta
+  -
+  README content:
+heyy wsp remember me? the guy who doesnt know how to make forks, so PenguinMod didnt accept my totally optimized game so im just uploading here to make it Open-Source brehhh (note: u cant upload it to penguinmod i guess??) and also if ur going to "fork" this game at least give me credit
+
+H2P (How To Play)
+Move ur cursor around and dont make the cat touch the baloons
+
+Loreeee
+This game's about some cat called "Michi" who was sleeping in a keyboard, filling Word pages with "z" until he entered a page where Baloons (Bal0nzz) were the kings of the world. Until the page absorbed Michi, and then it created his own page, called michifiesta. (what is this lore)
+
+Controls
+--GameKeys: (PC) Mouse (Controlling Michi) --Note: that's it lol -GameKeys: (Mobile: Tablet, Phone and TV) --Tablet/Phone with Optical Pen/No Pen: Like a Mouse. Just move it with your finger or the Pen. --TVKeys: The control or idontknow, i dont even have avaiable support for it. Maybe working for digital controls????
+
+Links
+https://10xc7.itch.io/michifiesta -- official itch page for michifiesta
+
+https://scratch.mit.edu/projects/1255216712/ -- official scratch page for michifiesta (for archiving only purposes, it's not being updated anymore)
+
+https://scratch.mit.edu/studios/51436808/ -- official scratch studio page for michifiesta
+
+https://github.com/inuez/michifiesta/ -- official github repository for michifiesta
+
+Where do i find the .pmp or .sb3 file to start working???????
+see, file is way too big so the pmp file (im working on PenguinMod (https://penguinmod.com/) so yeah use pmp file for it. it's on the releases tab, the name is something like: michifiesta pmp file (version letter)(version number).
+
+How do i package this garbage
+first use https://studio.penguinmod.com/PenguinMod-Packager and load the pmp/sb3 file or directly use the "Package project" option on https://studio.penguinmod.com now that your project is packaged (normally in a .zip file) install TurboWarp PackagerExtras (https://github.com/TurboWarp/packager-extras/ or https://github.com/TurboWarp/packager-extras/releases) and follow its instructions. normally, if you dont want to mess up with everything you'd leave the project like it is, but if you really want how to make the discord rich presence here it is: -install Node.js (https://nodejs.org)
+
+-after installing Node.js, open cmd in C:/YOUR_USER/Downloads (or where you downloaded it)/michifiesta/michifiesta/resources/app/
+
+-once you did that (remember to unzip the michifiesta.zip) open electron-main.js and paste a lot of garbage (copy+paste the whole electron-main.js from official releases. it doesnt matter that much and do the same for package.json.) and uh do the same for package.json.
+
+-now go on cmd and put: npm install discord-rpc
+
+-wait for it to download
+
+-now last thing to put is npm start to check if the game doesnt crash.
+
+-if it doesnt crash it's good if it does crash it means you gotta copy+paste node-modules, package.json and electron-main.js directly from an official release because i probably confused while doing this guide so uhh yeah
+
+-remember to add Node.js to the PATH
+
+who even reads this
+who even reads this dude
+-
+-
+                                                                      ##%%                          
+                ##%                                                  *##%%@                         
+               *##%%                                                **##%%@                         
+               *##%@@                                               **##%%@@                        
+              **##%@@         @@@%%#########%%%%%%%@@@              **##%%@@                        
+              +*##%@@    @@@################%%%%%%%%%%%%@@@        +**##%%@@                        
+              +*##%@@@@@#****###############%%%%%%%%%%%%%%%@@@     +**##%%@@                        
+              +*##%%+:=++****###############%%%%%%%%%%%%%%%%@@@@@  +**##%%@@                        
+              +*##%@@#+-=::+*###############%%%%%%%%%%%%%%%%@@@@@@@+**##%%@@                        
+              +*##%@@#**=--:+###############%%%%%%%%%%%%%%%%@@@@@@@#**##%%@@                        
+              **##%@@****-+**###-*##########%%%%%%%%%%%%%%%%@@@@@@@%**##%%@@-                       
+             %**##%@@****-**################%%%%%%%%%%%%%%%%@@@@@@@%**##%%@@                        
+           @#***##%@#***+-**################%%%%%%%%%%%%%%%%@@@@@%#+:--*%%@@                        
+          @#+***##%@****==***###############%%%%%%%%%%%%%%=-----+#:::+*#%%@@                        
+         @%++****#%*****=+***###############%%%%%%%%%%%%%%*-%@@@@@@@%*##%%@                         
+         @+++***********-****###############%%%%%%%%%%%%%%=*@@@@@@@@@###%%@                         
+        @*+++**********=-****###############%%%%%%%%%%%%%%-%@@@@@@@@@@##%@@@                        
+        @++++**********-+****###############%%%%%%%%%%%%%+=%@@@@@@@@@@@@@@@@                        
+        %++++**********-*****###############%%%%%%%%%%%%%=*%@@@@@@@@@@@@@@@@@                       
+       @%++++*********+-*****###############%%%%%%%%%%%%%=#%@@@@@@@@@@@@@@@@@                       
+       @#++++*********==****################%%%%%%%%%%%%%-#%@@@@@@@@@@@@@@@@@                       
+        %++++*********=+*****###############%%%%%%%%%%%%#-%%@@@@@@@@@@@@@@@@@                       
+        @++++*********-+*****###############%%%%%%%%%%%%*-%%@@@@@@@@@@@@@@@@                        
+        @*+++*********-+*****###############%%%%%%%%%%%%+=%%@@@@@@@@@@@@@@@@                        
+         @+++*********-+*****###############%%%%%%%%%%%%=#%%@@@@@@@@@@@@@@@                         hi
+@@       @#++*********-******###############%%%%%%%%%%%%-%%%@@@@@@@@@@@@@@@                         
+@@        @*+********+-******--*############%%%%%%%%%%%*-%%%@@@@@@@@@@@@@@                          
+@@         @*********==*****+-*##########=*#%%%%%%-+%%%+=%%%@@@@@@@@@@@@@                           
+@@          @%*******-*******+-*#######*-+-*%%%%%+-%%%%=+%%%@@@@@@@@@@@@                   @%@@     
+              @******-*******#*-=*###=--=++-+#*%*-%%%%%=*%%%@@@@@@@@@@@                   @#*##%@   
+                %***+-*******####*==+=--++**---=-%%%%%%-#%%%@@@@@@@@@                    @**###%%@@@
+                 @%*-=*******#######+---=+*+-%%%%%%%%%%%%%%%@@@@@@@                     @**##%%%@@@@
+                    @********#######--=--+*+-%%%%%%%%%%%%%%%@@@@@                      %*###%%%@@@  
+     @@               @@*****#######--==++*==%%%%%%%%%%%%%%%@@@                      @#*###%%%@@@   
+   @@@@@@                @@%########--==+++-*%%%%%%%%%%%@@@                         @**###%%@@@@    
+ @@#%%%@@@@                   @@@###=-==+++-%%%%%%%@@@@                            @**##%%%@@@@     
+@**###%%%@@@ @@@@@@@@@@             ---=++-+@@                                    %*###%%%@@@@      
+ @%*###%%%@@@@@@@@ @@   @@@@@@@@@     ----                                      @#*###%%%@@@        
+   @**###%%%@@@   @@   @@@@@@@@@   @@@                                         @**###%%@@@@         
+    @%**##%%%@@@@         @ @@   @@@@  @@@@@@@@@@@                            @**###%%@@@@          
+      @#*###%%%@@@                    @@@@@@@@@@@@@@@@@@                     @**##%%%@@@@           
+        @**##%@                                @@@@@@@  @@@@@@@@@@@@       @%*###%%%@@@             
+         @%*@                                           @@@@@@@@@@@ @@@@@@@%%###%%@@@@              
+                                                              @ @@@@@@@@@@@####%%@@@@               
